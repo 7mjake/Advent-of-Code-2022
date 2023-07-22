@@ -7,4 +7,4 @@
 
 import Foundation
 
-day1_part1_revised()
+day2_part2()

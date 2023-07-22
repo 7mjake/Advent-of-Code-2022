@@ -12,7 +12,7 @@ func day1_part1() {
     var directPuzzleInput: String? = nil // declaring puzzleInput here
     
     let filePath = URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
-                      .appendingPathComponent("day1/day1_realinput.txt")
+                      .appendingPathComponent("day1/day1_realInput.txt")
                         
     do {
         directPuzzleInput = try String(contentsOf: filePath, encoding: .utf8)
