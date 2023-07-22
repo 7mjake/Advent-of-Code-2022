@@ -7,38 +7,7 @@
 
 import Foundation
 
-//struct Shape {
-//    var name: String
-//    var code1: String
-//    var code2: String
-//    var pointValue: Int
-//}
-//
-//let Shapes = [
-//    Shape(name: "rock", code1: "A", code2: "X", pointValue: 1),
-//    Shape(name: "paper", code1: "B", code2: "Y", pointValue: 2),
-//    Shape(name: "scissors", code1: "C", code2: "Z", pointValue: 3)
-//]
-
-//enum code1: String {
-//    case rock = "A"
-//    case paper = "B"
-//    case scissors = "C"
-//}
-//
-//enum code2: String {
-//    case rock = "X"
-//    case paper = "Y"
-//    case scissors = "Z"
-//}
-//
-//enum points: Int {
-//    case rock = 1
-//    case paper
-//    case scissors
-//}
-
-func day2_part1() {
+func day02_part1() {
     
     struct Shape {
         var name: String
@@ -76,7 +45,7 @@ func day2_part1() {
     var directPuzzleInput: String? = nil // declaring puzzleInput here
     
     let filePath = URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
-                      .appendingPathComponent("day2/day2_realInput.txt")
+                      .appendingPathComponent("day02/day02_realInput.txt")
                         
     do {
         directPuzzleInput = try String(contentsOf: filePath, encoding: .utf8)

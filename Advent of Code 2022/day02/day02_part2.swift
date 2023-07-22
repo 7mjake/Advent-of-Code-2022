@@ -9,7 +9,7 @@ import Foundation
 
 
 
-func day2_part2() {
+func day02_part2() {
     
     struct Shape {
         var name: String
@@ -27,8 +27,6 @@ func day2_part2() {
     var pointsTotal = 0
 
     func playGame(input: [String]) {
-        let beats = shapesDict[input[0]]!.beats
-        let loses = shapesDict[input[0]]!.loses
         var pointsThisRound = 0
         var myChoice: String
 
@@ -53,7 +51,7 @@ func day2_part2() {
     var directPuzzleInput: String? = nil // declaring puzzleInput here
     
     let filePath = URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
-                      .appendingPathComponent("day2/day2_realInput.txt")
+                      .appendingPathComponent("day02/day02_realInput.txt")
                         
     do {
         directPuzzleInput = try String(contentsOf: filePath, encoding: .utf8)
