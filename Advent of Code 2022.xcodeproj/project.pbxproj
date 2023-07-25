@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96247D642A70319900BA1636 /* GetInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96247D632A70319900BA1636 /* GetInput.swift */; };
 		962ABF022A6B1CC200352473 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962ABF012A6B1CC200352473 /* main.swift */; };
 		962ABF092A6B250100352473 /* day01_part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962ABF082A6B250100352473 /* day01_part1.swift */; };
 		962ABF0E2A6B328200352473 /* day01_part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962ABF0D2A6B328200352473 /* day01_part2.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		96247D632A70319900BA1636 /* GetInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInput.swift; sourceTree = "<group>"; };
 		962ABEFE2A6B1CC200352473 /* Advent of Code 2022 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Advent of Code 2022"; sourceTree = BUILT_PRODUCTS_DIR; };
 		962ABF012A6B1CC200352473 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		962ABF082A6B250100352473 /* day01_part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day01_part1.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				962ABF012A6B1CC200352473 /* main.swift */,
+				96247D632A70319900BA1636 /* GetInput.swift */,
 				96497E842A6DDA3E0029D4B3 /* day04 */,
 				96497E7D2A6D65CB0029D4B3 /* day03 */,
 				96497E762A6B59B30029D4B3 /* day02 */,
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				962ABF022A6B1CC200352473 /* main.swift in Sources */,
+				96247D642A70319900BA1636 /* GetInput.swift in Sources */,
 				962ABF092A6B250100352473 /* day01_part1.swift in Sources */,
 				962ABF112A6B383A00352473 /* day01_part1_revised.swift in Sources */,
 				96497E892A6DDA870029D4B3 /* day04_part1.swift in Sources */,

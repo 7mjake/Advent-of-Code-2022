@@ -9,19 +9,9 @@ import Foundation
 
 func day04_part1() {
     
-    // Find and format puzzle input
-    var directPuzzleInput: String? = nil // declaring puzzleInput here
+    let directPuzzleInput = getInput(filename: "day04/day04_realInput.txt")
     
-    let filePath = URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
-                      .appendingPathComponent("day04/day04_realInput.txt")
-                        
-    do {
-        directPuzzleInput = try String(contentsOf: filePath, encoding: .utf8)
-    } catch {
-        print("Error: \(error)")
-    }
-    
-    let puzzleInput = directPuzzleInput!.components(separatedBy: "\n").filter { !$0.isEmpty }.map { $0.components(separatedBy: ",").map { $0.components(separatedBy: "-")}}
+    let puzzleInput = directPuzzleInput.components(separatedBy: "\n").filter { !$0.isEmpty }.map { $0.components(separatedBy: ",").map { $0.components(separatedBy: "-")}}
     
     var count = 0
     
